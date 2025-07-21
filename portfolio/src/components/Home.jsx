@@ -12,7 +12,7 @@ function handleclick() {
 }
  const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/public/Dr_Amit_Goyal_CV.docx';
+ link.href = '/Dr_Amit_Goyal_CV.docx';
     link.download = 'Dr_Amit_Goyal_CV.docx';
     document.body.appendChild(link);
     link.click();
@@ -24,7 +24,7 @@ function handleclick() {
   
     <main className="flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-24 py-12 gap-6 md:gap-10 flex-1">
       
-      <section id='about' className="flex-shrink: 1 flex flex-col justify-center space-y-12 max-w-xl text-center md:text-left">
+      <section id='about' className="flex-shrink flex flex-col justify-center space-y-12 max-w-xl text-center md:text-left">
         <h1 className="text-3xl md:text-5xl font-bold text-gray-800">
           Dr. Amit Kumar Goyal
         </h1>
@@ -46,7 +46,7 @@ function handleclick() {
       
       <section className="flex justify-between md:justify-end flex-1">
         <img
-  className="rounded-full w-50 h-50 md:w-64 md:h-64 object-cover border-4 border-green-200 shadow -translate-x-30  "
+  className="rounded-full w-40 h-40 md:w-64 md:h-64 object-cover border-4 border-green-200 shadow -translate-x-30  "
   src={photo}
   alt="Dr. Amit Kumar Goyal"
   loading="lazy"
