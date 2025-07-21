@@ -12,7 +12,7 @@ function handleclick() {
 }
  const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/assets/Dr_Amit_Goyal_CV.docx';
+    link.href = '/public/Dr_Amit_Goyal_CV.docx';
     link.download = 'Dr_Amit_Goyal_CV.docx';
     document.body.appendChild(link);
     link.click();
